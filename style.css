@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #252525;
+}
+h1{
+    color: rgb(216, 216, 216);
+}
+.grid-container{
+    box-shadow: 10px 10px;
+}
+.hoverable{
+    background-color: #373737;
+}
+.hoverable-black{
+    background-color: #000;
+}
+.hoverable:hover{
+    background-color: #000;
+}
