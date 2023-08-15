@@ -1,22 +1,36 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #252525;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #252525;
 }
-h1{
-    color: rgb(216, 216, 216);
+.title {
+  color: rgb(216, 216, 216);
+  font-size: 2rem;
 }
-.grid-container{
-    box-shadow: 10px 10px;
+#grid {
+  box-shadow: 10px 10px;
 }
-.hoverable{
-    background-color: #373737;
+
+.hoverable-black {
+  background-color: #000000;
 }
-.hoverable-black{
-    background-color: #000;
+button {
+  background-color: #373737;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 20px 0;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+  border-radius: 4px;
 }
-.hoverable:hover{
-    background-color: #000;
+button:hover {
+  transform: scale(1.2);
+}
+.footer {
+  margin-top: 20px;
+  color: #fff;
 }
